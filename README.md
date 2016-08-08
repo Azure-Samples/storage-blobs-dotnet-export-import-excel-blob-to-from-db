@@ -3,6 +3,7 @@ services: blobs
 platforms: c#
 author: msonecode
 ---
+
 # storage-blobs-dotnet-export-import-excel-blob-to-from-db
 
 This sample demonstrates how to import the worksheet Azure Excel file blob to DB on the Azure SQL Server and how to export from DB to Azure Excel blob.
@@ -46,7 +47,7 @@ string connectionStr = "Azure SQL Server Connection String";
 Run CreateTable.sql in the SQLScripts folder on your Azure SQL Server DB to create the test table and test data. Otherwise, you can set your data table info first in Helper.cs file if you want to test your own data:                      
 
 ```cs
-List<string> columns = new List<string>() { "{column1}�, "{column2}", "{column3}"};
+List<string> columns = new List<string>() { "{column1}", "{column2}", "{column3}"};
 string tableName = "{table name}";
 ```
 
