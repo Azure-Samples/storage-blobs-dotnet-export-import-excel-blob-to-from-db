@@ -1,9 +1,8 @@
 ﻿---
-serivices: blobs
+services: blobs
 platforms: c#
 author: msonecode
 ---
-
 # storage-blobs-dotnet-export-import-excel-blob-to-from-db
 
 This sample demonstrates how to import the worksheet Azure Excel file blob to DB on the Azure SQL Server and how to export from DB to Azure Excel blob.
@@ -33,9 +32,9 @@ You can click the button "Clear Log" to clear the logs.
 
 Before you build the project, make sure you have installed WindowsAzure.Storage package in the project.                                                 
 The following steps can help you to install it:                                                                                   
-Open the solution CSWebAppAzureExcelImportExport.sln.                                                                            
-Right click the project and select [Manage NuGet Packages...].                                                                                 
-Search WindowsAzure.Storage at the Browse tab page. Find the right package and then install it.                                                      
+1. Open the solution CSWebAppAzureExcelImportExport.sln.                                                                            
+2. Right click the project and select [Manage NuGet Packages...].                                                                                 
+3. Search WindowsAzure.Storage at the Browse tab page. Find the right package and then install it.                                                      
 
 You also need to set your Azure information in Helper.cs file:                                     
 
