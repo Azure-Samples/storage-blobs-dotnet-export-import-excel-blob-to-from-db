@@ -2,7 +2,7 @@
 services: blobs
 platforms: c#
 author: msonecode
----
+---  
 
 # storage-blobs-dotnet-export-import-excel-blob-to-from-db
 This sample demonstrates how to import the worksheet Azure Excel file blob to DB on the Azure SQL Server and how to export from DB to Azure Excel blob.
