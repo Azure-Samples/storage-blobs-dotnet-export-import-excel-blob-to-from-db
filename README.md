@@ -5,9 +5,7 @@ author: msonecode
 ---
 
 # storage-blobs-dotnet-export-import-excel-blob-to-from-db
-
 This sample demonstrates how to import the worksheet Azure Excel file blob to DB on the Azure SQL Server and how to export from DB to Azure Excel blob.
-
 ## Running this sample
 
 Do one of the following to start debugging:                                                                              
@@ -52,7 +50,6 @@ string tableName = "{table name}";
 ```
 
 ## More information
-
 See more about this sample: <https://code.msdn.microsoft.com/How-to-ImportExport-Azure-0c858df9>                                            
 For more information about Open XML, see <https://msdn.microsoft.com/en-us/library/office/bb456488.aspx>                                                        
 About Azure SQL Database development, see <https://azure.microsoft.com/en-us/documentation/articles/sql-database-develop-overview/>                                    
