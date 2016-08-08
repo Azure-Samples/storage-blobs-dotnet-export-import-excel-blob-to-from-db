@@ -1,0 +1,47 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title></title>
+    <script src="~/scripts/jquery-1.10.2.min.js"></script>
+</head>
+<body>
+    <div>
+        <input id="btnExport" type="button" value="Export to Excel" />
+        <input id="btnImport" type="button" value="Import to DB" />
+    </div>
+    <div style="margin-top:10px">Logs:</div>
+    <div id="divLog" style="margin-top:10px;min-height:30px;border:1px solid;padding:5px">
+    </div>
+    <div style="margin-top:10px">
+        <input id="btnClear" type="button" value="Clear Log" />
+    </div>
+    <script>
+
+        $("#btnImport").bind("click",
+            function () {
+                $.post("/Home/ImportToDB", function (data) {
+                    $("#divLog").append("<div>" + data + "</div>");
+                });
+            }
+        );
+        $("#btnExport").bind("click",
+            function () {
+                $.post("/Home/ExportToExcel", function (data) {
+                    $("#divLog").append("<div>" + data + "</div>");
+                });
+            }
+        );
+        $("#btnClear").bind("click",
+            function () {
+                $("#divLog").empty();
+            }
+        );
+    </script>
+</body>
+</html>
