@@ -43,6 +43,7 @@ List<string> columns = new List<string>() { "{column1}”, "{column2}", "{column3}
 string tableName = "{table name}";
 ```
 ## More information
+See more about this sample: <https://code.msdn.microsoft.com/How-to-ImportExport-Azure-0c858df9>                                            
 For more information about Open XML, see <https://msdn.microsoft.com/en-us/library/office/bb456488.aspx>                                                        
 About Azure SQL Database development, see <https://azure.microsoft.com/en-us/documentation/articles/sql-database-develop-overview/>                                    
 To learn more about SqlBulkCopy class, see <https://msdn.microsoft.com/en-us/library/system.data.sqlclient.sqlbulkcopy(v=vs.110).aspx>
