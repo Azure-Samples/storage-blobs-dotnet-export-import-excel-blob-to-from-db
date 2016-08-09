@@ -13,19 +13,16 @@ Do one of the following to start debugging:
 2. Click Start Debugging in the Debug menu.                                                                                  
 3. Press F5.    
 
-You will see this page:  
+- You will see the web page of this application  
+![](Images/Empty.png)
 
-![](Images/Empty.png)        
+- Then click button "Export to Excel"  
+![](Images/Export.png)
 
-Click button "Export to Excel":      
-
-![](Images/Export.png)      
-
-Click button "Import to DB"      
-
+- Click button "Import to DB" on the page  
 ![](Images/Import.png)
 
-You can click the button "Clear Log" to clear the logs.  
+- You can click the button "Clear Log" to clear the logs.  
 
 ## About the code
 
